@@ -5935,7 +5935,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7263066586038132329, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: pinchAnimationAction.m_Reference
+      value: 
+      objectReference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_RemovedComponents:
+    - {fileID: -8379910247338562818, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -7206,7 +7211,8 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 14e7f34d2c6f56e47a2c2db725205f6d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6857519444179614750, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
