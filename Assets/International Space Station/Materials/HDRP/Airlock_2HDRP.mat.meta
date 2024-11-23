@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 509d18ceaa6f2ea4ead16c4fb3e81ded
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: '{"GUIDArray":[],"withUV":[false,false,false,false]}'
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Materials/HDRP/Airlock_2HDRP.mat
+  uploadId: 629282

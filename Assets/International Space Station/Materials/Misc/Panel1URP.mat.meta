@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 156caaa27eb521d43b8876de3a66bd2f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Materials/Misc/Panel1URP.mat
+  uploadId: 629282

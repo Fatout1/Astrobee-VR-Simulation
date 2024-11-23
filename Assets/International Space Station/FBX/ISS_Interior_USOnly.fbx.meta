@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: a71c4a544e9c4b9478f136fa9399b567
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Airlock_2
+    second: {fileID: 2100000, guid: 12f56e2e3606e5e40a754f5d17b9e97e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Columbus_Bulkhead
+    second: {fileID: 2100000, guid: 7cbb12aaed455cb459b0db2b26b029f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Columbus_Racks01
+    second: {fileID: 2100000, guid: d637a5feb6e817146956d396fd9a477d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Columbus_Racks02
+    second: {fileID: 2100000, guid: 5c8e1a6c1709b8049a4362925acdcf8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Columbus_Racks03
+    second: {fileID: 2100000, guid: a2cd200d4133ca549be8a01b3632fe75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cupola_Diffuse
+    second: {fileID: 2100000, guid: c0f8f6ba026ab2244a6c5330e0ea9086, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fabric_Padded
+    second: {fileID: 2100000, guid: 40d0b352cce29734f99e24d0051eac36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Generic_Hub
+    second: {fileID: 2100000, guid: 9b60970d13a50e440bd2cec5d0f270b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Generic_Intersection
+    second: {fileID: 2100000, guid: 9b60970d13a50e440bd2cec5d0f270b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Generic_Lights
+    second: {fileID: 2100000, guid: 9b60970d13a50e440bd2cec5d0f270b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Generic_Misc_Details
+    second: {fileID: 2100000, guid: d4452a8ef212a8b449dfd8a0efd3c8c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Generic_Misc_Details_LIGHTS
+    second: {fileID: 2100000, guid: d4452a8ef212a8b449dfd8a0efd3c8c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: ff656b2ae16a4f543b24d73582a892d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JLP_Int_Bulkhead
+    second: {fileID: 2100000, guid: 1bb7e494fa351d847b892703e249368b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JLP_Racks
+    second: {fileID: 2100000, guid: 1d804a109def23346973db542518572a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JPM_Bulkhead
+    second: {fileID: 2100000, guid: ef0124dee4863f04d911000bcb018ec8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JPM_Racks_01
+    second: {fileID: 2100000, guid: 8d87bad187358e24b84041d65fcb7691, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JPM_Racks_01_Base_Color
+    second: {fileID: 2100000, guid: 8d87bad187358e24b84041d65fcb7691, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JPM_Racks_02
+    second: {fileID: 2100000, guid: 626677a0526c84c4a95569a68ae25f57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JPM_Racks_03
+    second: {fileID: 2100000, guid: 8973f438f2c3217498cbed4d4dd4ff78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Node1_Int_Bulkhead
+    second: {fileID: 2100000, guid: 1ea7796aa3e15784ea1e50d8339e4092, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Node1_Int_Rack
+    second: {fileID: 2100000, guid: 2adabae796e5f8b45906f51eb9fdd1df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Node2_Bulkhead
+    second: {fileID: 2100000, guid: 9a674a674ad8d3e4a925a1fade6eea68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Node2_Rack
+    second: {fileID: 2100000, guid: 4a8796d8cdeb35d47afd16f98ca1f835, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Node3_Bulkhead
+    second: {fileID: 2100000, guid: a668baef51fd0ff41affd9e2f43541c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Node3_Int_Rack_01
+    second: {fileID: 2100000, guid: 5a5a9b301cfaf3f4ebf07b0f5ea3cbf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Node3_Int_Rack_02
+    second: {fileID: 2100000, guid: 31e503e96a7ffe9419dd2c548da12283, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PMM_01
+    second: {fileID: 2100000, guid: ad54d095540fa8e4f81783b06ddb2e8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels
+    second: {fileID: 2100000, guid: daaf34e8bb34c1242b49027e4c7b25ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: USLab_AFT_Bulkhead
+    second: {fileID: 2100000, guid: 4682452b5e2a1cf40bbc581e19e5a7fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: USLab_FWD_Bulkhead
+    second: {fileID: 2100000, guid: e0ef5a0fbfb3b1d49bd50c8c7699b4b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: USLab_Racks_01
+    second: {fileID: 2100000, guid: 7fdf7ef51ae81e44d93e857776b0364f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: USLab_Racks_02
+    second: {fileID: 2100000, guid: 5d7ee7fadb2c5c94fb7475e40f502777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: USLab_Racks_03
+    second: {fileID: 2100000, guid: b6af5b9f8ba7422449118e92baa87812, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/FBX/ISS_Interior_USOnly.fbx
+  uploadId: 629282

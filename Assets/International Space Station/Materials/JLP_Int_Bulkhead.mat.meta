@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1bb7e494fa351d847b892703e249368b
+timeCreated: 1504644154
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Materials/JLP_Int_Bulkhead.mat
+  uploadId: 629282

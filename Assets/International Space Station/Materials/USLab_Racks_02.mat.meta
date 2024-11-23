@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5d7ee7fadb2c5c94fb7475e40f502777
+timeCreated: 1504644153
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Materials/USLab_Racks_02.mat
+  uploadId: 629282

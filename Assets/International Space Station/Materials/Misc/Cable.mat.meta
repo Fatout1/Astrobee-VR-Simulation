@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8899533d5402ace46bd435b59c0fa378
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Materials/Misc/Cable.mat
+  uploadId: 629282

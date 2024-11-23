@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d71b3dddef5918f46b03b673ca990de5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Materials/URP/USLab_Racks_03URP.mat
+  uploadId: 629282

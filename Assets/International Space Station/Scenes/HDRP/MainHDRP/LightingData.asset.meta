@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 42ce1f34fbebf1d449fae8dc03f77032
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Scenes/HDRP/MainHDRP/LightingData.asset
+  uploadId: 629282

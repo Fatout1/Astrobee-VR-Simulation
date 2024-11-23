@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7ab1b2795eaa3e94f88e7eb95e166b97
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/ABDeveloperHDRP.shadergraph
+  uploadId: 629282

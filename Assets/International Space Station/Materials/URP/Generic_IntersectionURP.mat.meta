@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 91cd8e7849b690f4d9888bc5bee66f4b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Materials/URP/Generic_IntersectionURP.mat
+  uploadId: 629282

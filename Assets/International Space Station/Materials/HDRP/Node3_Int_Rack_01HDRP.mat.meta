@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 920a7ad70799d314f84b29d5dcab0d2b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: '{"GUIDArray":[],"withUV":[false,false,false,false]}'
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Materials/HDRP/Node3_Int_Rack_01HDRP.mat
+  uploadId: 629282

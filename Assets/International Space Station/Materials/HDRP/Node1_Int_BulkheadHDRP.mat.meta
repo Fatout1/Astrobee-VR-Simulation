@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c60682181fce79b47a1331d6e5abe375
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Materials/HDRP/Node1_Int_BulkheadHDRP.mat
+  uploadId: 629282

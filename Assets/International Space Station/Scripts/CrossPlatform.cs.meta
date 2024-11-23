@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 86ca4aa40c2fb3f4bada1b67c62b0f4d
+timeCreated: 1507667553
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Scripts/CrossPlatform.cs
+  uploadId: 629282

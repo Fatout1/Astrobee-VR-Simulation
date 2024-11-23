@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 91a46910d2cbe6a4c82e9523a445a7c8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Materials/URP/USLab_FWD_BulkheadURP.mat
+  uploadId: 629282

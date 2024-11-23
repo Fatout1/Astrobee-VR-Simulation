@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: bbd6d4fa203905540b63f0de1f32002f
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: 1004269458355131334
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.001Action.001
+  - first:
+      74: 7342528276218712128
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.002Action.001
+  - first:
+      74: 8579036536646932042
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.004Action
+  - first:
+      74: 4651435899382390340
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.005Action
+  - first:
+      74: 2781469014597634431
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.006Action
+  - first:
+      74: -7098712960341906229
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.007Action
+  - first:
+      74: 1524313746702349870
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.008Action
+  - first:
+      74: 5204098573959152105
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.010Action
+  - first:
+      74: -238660711071603612
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.011Action
+  - first:
+      74: -7331562646982471037
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.012Action
+  - first:
+      74: 695637447702906390
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.014Action
+  - first:
+      74: -1961795819062835112
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.015Action
+  - first:
+      74: 407544377408027439
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.016Action
+  - first:
+      74: 7728739626531072600
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.018Action
+  - first:
+      74: -5281763339225490146
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.019Action
+  - first:
+      74: 1360258371608706492
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.020Action
+  - first:
+      74: -4232586652928163729
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.021Action
+  - first:
+      74: 1858239932867620732
+    second: PMM.CTB_Bags.004|PMM.CTB_Bags.022Action
+  - first:
+      74: -2437337843423317926
+    second: PMM.CTB_Bags.004|PMM.CTB_BagsAction
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Generic_Misc_Details
+    second: {fileID: 2100000, guid: d4452a8ef212a8b449dfd8a0efd3c8c3, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.001
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/FBX/Bag2.fbx
+  uploadId: 629282

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4682452b5e2a1cf40bbc581e19e5a7fd
+timeCreated: 1504644152
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Materials/USLab_AFT_Bulkhead.mat
+  uploadId: 629282

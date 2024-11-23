@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a9579dbb0b8b809419190dc851564ea0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Scenes/HDRP/HDRenderPipelineGlobalSettings_VolumeProfile_ISS.asset
+  uploadId: 629282

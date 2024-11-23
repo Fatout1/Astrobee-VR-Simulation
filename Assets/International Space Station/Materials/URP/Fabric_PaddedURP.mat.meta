@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 77859bb484c15ab4c948b137bef5a83d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Materials/URP/Fabric_PaddedURP.mat
+  uploadId: 629282

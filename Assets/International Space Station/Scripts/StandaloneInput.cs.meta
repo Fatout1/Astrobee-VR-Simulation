@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ca95510bc07bb554190d866e50ea91b1
+timeCreated: 1507667553
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Scripts/StandaloneInput.cs
+  uploadId: 629282

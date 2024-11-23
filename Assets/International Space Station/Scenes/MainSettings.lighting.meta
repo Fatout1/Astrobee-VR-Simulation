@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 36efce00bd482e34995b8529652c89fa
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Scenes/MainSettings.lighting
+  uploadId: 629282

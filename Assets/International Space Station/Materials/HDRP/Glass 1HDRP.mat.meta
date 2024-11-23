@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6a8c10390f9893b498a6ea04b5de802b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Materials/HDRP/Glass 1HDRP.mat
+  uploadId: 629282

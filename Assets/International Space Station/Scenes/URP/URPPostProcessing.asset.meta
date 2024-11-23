@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9465c5530f2411840a30e351424a4730
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Scenes/URP/URPPostProcessing.asset
+  uploadId: 629282

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a668baef51fd0ff41affd9e2f43541c8
+timeCreated: 1504644149
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Materials/Node3_Bulkhead.mat
+  uploadId: 629282

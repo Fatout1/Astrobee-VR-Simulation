@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 452c6ab9bb2e7fb44b6d0ab9b1193c73
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Prefabs/ISS_Interior_USOnly.prefab
+  uploadId: 629282

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c341ca0548032bc47b57d3e0b285e001
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100255
+  packageName: Interior of International Space Station
+  packageVersion: 3.1
+  assetPath: Assets/International Space Station/Materials/URP/JPM_Racks_03 1.mat
+  uploadId: 629282
