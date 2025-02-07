@@ -1,46 +1,93 @@
 using System.IO;
-using System;
 using UnityEngine;
-using TMPro;
 
-public class HeadAndHandTracker : MonoBehaviour
+public class HeadHandTracker : MonoBehaviour
 {
     public Transform headTransform;
     public Transform leftHandTransform;
     public Transform rightHandTransform;
-    public TMP_Text displayText;
 
-    private string filePath;
+    private string directoryPath;
+    private float lastUpdateTime;
+    private float updateInterval = 0.5f; // Update every 0.5 seconds
+
+    private Vector3 lastHeadPosition, lastLeftHandPosition, lastRightHandPosition;
+    private Vector3 lastHeadVelocity, lastLeftHandVelocity, lastRightHandVelocity;
 
     void Start()
     {
-        // Set the file path to save data
-        filePath = Application.persistentDataPath + "/HeadHandData.csv";
+        // Set directory path for storing CSV files
+        directoryPath = Application.persistentDataPath + "/TrackingData";
+        if (!Directory.Exists(directoryPath))
+            Directory.CreateDirectory(directoryPath);
 
-        // Create or clear the file at the start and write the header
-        File.WriteAllText(filePath, "Timestamp,Head_X,Head_Y,Head_Z,Left_X,Left_Y,Left_Z,Right_X,Right_Y,Right_Z\n");
+        // Initialize data headers for each file
+        InitializeCSV("Head_X");
+        InitializeCSV("Head_Y");
+        InitializeCSV("Head_Z");
+        InitializeCSV("Left_X");
+        InitializeCSV("Left_Y");
+        InitializeCSV("Left_Z");
+        InitializeCSV("Right_X");
+        InitializeCSV("Right_Y");
+        InitializeCSV("Right_Z");
+
+        // Initialize previous values
+        lastHeadPosition = headTransform.position;
+        lastLeftHandPosition = leftHandTransform.position;
+        lastRightHandPosition = rightHandTransform.position;
     }
 
     void Update()
     {
-        if (displayText != null && headTransform != null && leftHandTransform != null && rightHandTransform != null)
+        if (Time.time - lastUpdateTime >= updateInterval)
         {
-            // Get the positions
-            Vector3 headPos = headTransform.position;
-            Vector3 leftPos = leftHandTransform.position;
-            Vector3 rightPos = rightHandTransform.position;
+            float timestamp = Mathf.Round(Time.time * 100) / 100f; // Limit to 2 decimal places
 
-            // Format the data into CSV
-            string timeStamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-            string data = $"{timeStamp},{headPos.x:F3},{headPos.y:F3},{headPos.z:F3}," +
-                          $"{leftPos.x:F3},{leftPos.y:F3},{leftPos.z:F3}," +
-                          $"{rightPos.x:F3},{rightPos.y:F3},{rightPos.z:F3}";
+            // Calculate velocities (difference in position over time)
+            Vector3 headVelocity = (headTransform.position - lastHeadPosition) / updateInterval;
+            Vector3 leftHandVelocity = (leftHandTransform.position - lastLeftHandPosition) / updateInterval;
+            Vector3 rightHandVelocity = (rightHandTransform.position - lastRightHandPosition) / updateInterval;
 
-            // Update display text
-            displayText.text = $"Head: {headPos}\nLeft: {leftPos}\nRight: {rightPos}";
+            // Calculate accelerations (difference in velocity over time)
+            Vector3 headAcceleration = (headVelocity - lastHeadVelocity) / updateInterval;
+            Vector3 leftHandAcceleration = (leftHandVelocity - lastLeftHandVelocity) / updateInterval;
+            Vector3 rightHandAcceleration = (rightHandVelocity - lastRightHandVelocity) / updateInterval;
 
-            // Append data to the file
-            File.AppendAllText(filePath, data + "\n");
+            // Save data to CSV files
+            SaveData("Head_X", timestamp, headTransform.position.x, headVelocity.x, headAcceleration.x);
+            SaveData("Head_Y", timestamp, headTransform.position.y, headVelocity.y, headAcceleration.y);
+            SaveData("Head_Z", timestamp, headTransform.position.z, headVelocity.z, headAcceleration.z);
+            SaveData("Left_X", timestamp, leftHandTransform.position.x, leftHandVelocity.x, leftHandAcceleration.x);
+            SaveData("Left_Y", timestamp, leftHandTransform.position.y, leftHandVelocity.y, leftHandAcceleration.y);
+            SaveData("Left_Z", timestamp, leftHandTransform.position.z, leftHandVelocity.z, leftHandAcceleration.z);
+            SaveData("Right_X", timestamp, rightHandTransform.position.x, rightHandVelocity.x, rightHandAcceleration.x);
+            SaveData("Right_Y", timestamp, rightHandTransform.position.y, rightHandVelocity.y, rightHandAcceleration.y);
+            SaveData("Right_Z", timestamp, rightHandTransform.position.z, rightHandVelocity.z, rightHandAcceleration.z);
+
+            // Update last recorded values
+            lastHeadPosition = headTransform.position;
+            lastLeftHandPosition = leftHandTransform.position;
+            lastRightHandPosition = rightHandTransform.position;
+
+            lastHeadVelocity = headVelocity;
+            lastLeftHandVelocity = leftHandVelocity;
+            lastRightHandVelocity = rightHandVelocity;
+
+            lastUpdateTime = Time.time;
         }
+    }
+
+    void InitializeCSV(string filename)
+    {
+        string filePath = Path.Combine(directoryPath, filename + ".csv");
+        File.WriteAllText(filePath, "Timestamp, Position, Velocity, Acceleration\n"); // Set CSV headers
+    }
+
+    void SaveData(string filename, float timestamp, float position, float velocity, float acceleration)
+    {
+        string filePath = Path.Combine(directoryPath, filename + ".csv");
+        string data = $"{timestamp:F2}, {position:F4}, {velocity:F4}, {acceleration:F4}\n";
+        File.AppendAllText(filePath, data);
     }
 }

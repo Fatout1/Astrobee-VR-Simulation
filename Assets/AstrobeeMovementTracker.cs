@@ -1,32 +1,66 @@
 using System.IO;
-using System;
 using UnityEngine;
 
 public class AstrobeeMovementTracker : MonoBehaviour
 {
-    private string filePath;
+    private string directoryPath;
+    private float lastUpdateTime;
+    private float updateInterval = 0.5f; // Update every 0.5 seconds
+
+    private Vector3 lastPosition;
+    private Vector3 lastVelocity;
 
     void Start()
     {
-        // Set the file path to save data
-        filePath = Application.persistentDataPath + "/AstrobeeMovementData.csv";
+        // Set directory path for storing CSV files
+        directoryPath = Application.persistentDataPath + "/TrackingData";
+        if (!Directory.Exists(directoryPath))
+            Directory.CreateDirectory(directoryPath);
 
-        // Create or clear the file at the start and write the header
-        File.WriteAllText(filePath, "Timestamp,Position_X,Position_Y,Position_Z,Rotation_X,Rotation_Y,Rotation_Z\n");
+        // Initialize data headers for each file
+        InitializeCSV("Astrobee_X");
+        InitializeCSV("Astrobee_Y");
+        InitializeCSV("Astrobee_Z");
+
+        // Initialize previous values
+        lastPosition = transform.position;
     }
 
     void Update()
     {
-        // Get the Astrobee's current position and rotation
-        Vector3 position = transform.position;
-        Vector3 rotation = transform.rotation.eulerAngles;
+        if (Time.time - lastUpdateTime >= updateInterval)
+        {
+            float timestamp = Mathf.Round(Time.time * 100) / 100f; // Limit to 2 decimal places
 
-        // Format the data into CSV
-        string timeStamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-        string data = $"{timeStamp},{position.x:F3},{position.y:F3},{position.z:F3}," +
-                      $"{rotation.x:F3},{rotation.y:F3},{rotation.z:F3}";
+            // Calculate velocity (change in position over time)
+            Vector3 velocity = (transform.position - lastPosition) / updateInterval;
 
-        // Append data to the file
-        File.AppendAllText(filePath, data + "\n");
+            // Calculate acceleration (change in velocity over time)
+            Vector3 acceleration = (velocity - lastVelocity) / updateInterval;
+
+            // Save data to CSV files
+            SaveData("Astrobee_X", timestamp, transform.position.x, velocity.x, acceleration.x);
+            SaveData("Astrobee_Y", timestamp, transform.position.y, velocity.y, acceleration.y);
+            SaveData("Astrobee_Z", timestamp, transform.position.z, velocity.z, acceleration.z);
+
+            // Update last recorded values
+            lastPosition = transform.position;
+            lastVelocity = velocity;
+
+            lastUpdateTime = Time.time;
+        }
+    }
+
+    void InitializeCSV(string filename)
+    {
+        string filePath = Path.Combine(directoryPath, filename + ".csv");
+        File.WriteAllText(filePath, "Timestamp, Position, Velocity, Acceleration\n"); // Set CSV headers
+    }
+
+    void SaveData(string filename, float timestamp, float position, float velocity, float acceleration)
+    {
+        string filePath = Path.Combine(directoryPath, filename + ".csv");
+        string data = $"{timestamp:F2}, {position:F4}, {velocity:F4}, {acceleration:F4}\n";
+        File.AppendAllText(filePath, data);
     }
 }
